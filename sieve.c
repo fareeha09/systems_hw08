@@ -29,15 +29,3 @@ int sieve(int targetPrime){
 		
 	return cur_num  ;
 }
-
-int main() {
-	int i= sieve(1);
-	printf("%d\n", i);
-	int j= sieve(10);
-	printf("%d\n", j);
-	int k= sieve(1000);
-	printf("%d\n", k);
-	int l= sieve(10000);
-	printf("%d\n", l);
-}
-
